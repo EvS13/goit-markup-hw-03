@@ -160,6 +160,7 @@ img {
 /* footer */
 
 .footer {
+    margin-top: 94px;
     background-color: var(--footer-br-color);
     font-style: normal;
     font-weight: 400;
