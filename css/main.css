@@ -17,7 +17,11 @@
     font-family: Roboto, sans-serif;
 }
 
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* header */
 
@@ -44,6 +48,11 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+.logo-header {
+    padding-top: 24px;
+    padding-bottom: 0;
 }
 
 .logo-footer {
@@ -130,6 +139,10 @@
     margin-top: 94px;
 }
 
+.feature-item {
+    width: 270px;
+}
+
 .feature .title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -155,12 +168,20 @@
 /* work и team title */
 
 .work {
-    outline: 2px solid tomato;
-}
+    margin-top: 94px;
+    /* margin-bottom: 94px; */
 
+}
+/*
+.work .link {
+    margin-top: 50px;
+} */
 
 .work .title,
 .team .team-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -173,16 +194,46 @@
 
 .team {
     background-color: var(--secondary-br-color);
+    margin-top: 94px;
 }
 
+.team .team-title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+}
 
 .team .title {
-     color: var(--title-text-color);
+  color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
 }
+
+.team-item {
+    width: 270px;
+}
+
+
+.content {
+    text-align: center;
+    width: 270px;
+}
+
+.content .title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content .text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
 
 .team .text {
     color: var(--primary-text-color);
@@ -191,6 +242,8 @@
     line-height: 1.18;
     letter-spacing: 0.03em;
 }
+
+
 
 /* button */
 
@@ -210,8 +263,6 @@
     letter-spacing: 0.06em;
     text-decoration: none;
     text-align: center;
-
-
 }
 
 .button.primary {
@@ -223,12 +274,27 @@
 /* footer */
 
 .footer {
+    outline: 2px solid tomato;
     background-color: var(--footer-br-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.mail {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.tel {
+    padding-bottom: 60px;
 }
 
 .address {
