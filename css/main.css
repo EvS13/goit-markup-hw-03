@@ -273,9 +273,9 @@ img {
 
 .content .title {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .content .text {
@@ -334,7 +334,7 @@ img {
 
 .footer-logo {
     padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mail {
@@ -342,13 +342,14 @@ img {
     padding-bottom: 9px;
 }
 
-.tel {
+/* .tel {
     padding-bottom: 60px;
-}
+} */
 
 .address {
     color: #ffffff;
     font-style: normal;
+    padding-bottom: 60px;
 }
 
 .footer .link {
