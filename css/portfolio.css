@@ -35,6 +35,11 @@ img {
     border: 1px solid rgba(238, 238, 238, 1);
 }
 
+.project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .project-list {
     display: flex;
     justify-content: center;
@@ -96,6 +101,11 @@ img {
     display: flex;
 }
 
+.main-header {
+    align-items: center;
+    display: flex;
+}
+
 /* logo */
 
 .logo{
@@ -146,21 +156,28 @@ img {
     text-decoration: none;
 }
 
+/* header-item */
 
-
-.link-nav {
+.header-item {
     display: flex;
     margin-left: auto;
 }
 
-.link-nav .item + .item {
+.header-item .item + .item {
     margin-left: 50px;
 }
 
-.link-nav .link{
+.header-item .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
+.header-item .link:hover,
+.header-item .link:focus {
+    color:  var(--accent-color);
+}
+
+
 
 /* title */
 
@@ -186,24 +203,17 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.button-list{
+    padding: 20px 24px;
+}
 
 .button-list .title {
-padding-top: 20px;
-padding-left: 24px;
-padding-right: 24px;
 margin-bottom: 4px;
 }
 
-.button-list .text {
-padding-right: 24px;
-padding-left: 24px;
-padding-bottom: 20px;
-}
 
 .button-project {
-    margin-top: 94px;
-    margin-bottom: 0;
-    padding-bottom: 34px;
+    margin-bottom: 34px;
 }
 
 .button.secondary {
@@ -231,7 +241,8 @@ padding-bottom: 20px;
 /* footer */
 
 .footer {
-    margin-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-br-color);
     font-style: normal;
     font-weight: 400;
@@ -241,20 +252,18 @@ padding-bottom: 20px;
 }
 
 .footer-logo {
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 
 .mail {
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 
 .address {
     color: #ffffff;
     font-style: normal;
-    padding-bottom: 60px;
 }
 
 

@@ -57,6 +57,10 @@ img {
     display: flex;
 }
 
+.main-header {
+    align-items: center;
+    display: flex;
+}
 
 /* logo */
 
@@ -71,10 +75,6 @@ img {
     text-decoration: none;
 }
 
-/* .logo-header {
-    padding-top: 24px;
-    padding-bottom: 0;
-} */
 
 .logo-header .logo {
     display: block;
@@ -135,26 +135,25 @@ img {
 
 
 
-/* link-nav */
+/* header-item */
 
-
-.link-nav .item + .item {
-    margin-left: 50px;
-}
-
-.link-nav {
+.header-item {
     display: flex;
     margin-left: auto;
 }
 
+.header-item .item + .item {
+    margin-left: 50px;
+}
 
-.link-nav .link {
+
+.header-item .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.link-nav .link:hover,
-.link-nav .link:focus {
+.header-item .link:hover,
+.header-item .link:focus {
     color:  var(--accent-color);
 }
 
@@ -187,6 +186,7 @@ img {
 
 .feature {
    padding-top: 94px;
+   padding-bottom: 94px;
 }
 
 .feature-item {
@@ -219,7 +219,7 @@ img {
 /* work и team title */
 
 .work {
-    margin-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-item .work-list + .work-list {
@@ -229,8 +229,7 @@ img {
 .work .title,
 .team .team-title {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -242,15 +241,11 @@ img {
 /* team */
 
 .team {
-    background-color: var(--secondary-br-color);
-    margin-top: 94px;
-}
-
-.team .team-title {
     padding-top: 94px;
-    padding-bottom: 50px;
-
+    padding-bottom: 94px;
+    background-color: var(--secondary-br-color);
 }
+
 
 .list .team-list + .team-list {
     margin-left: 30px;
@@ -270,13 +265,11 @@ img {
     width: 270px;
 }
 
-.team-list {
-    padding-bottom: 94px;
-}
 
 .content {
     text-align: center;
     width: 270px;
+    padding: ;
 }
 
 .content .title {
@@ -332,6 +325,8 @@ img {
 /* footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-br-color);
     font-style: normal;
     font-weight: 400;
@@ -341,23 +336,18 @@ img {
 }
 
 .footer-logo {
-    padding-top: 60px;
     margin-bottom: 20px;
 }
 
 .mail {
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
-/* .tel {
-    padding-bottom: 60px;
-} */
 
 .address {
     color: #ffffff;
     font-style: normal;
-    padding-bottom: 60px;
 }
 
 .footer .link {
