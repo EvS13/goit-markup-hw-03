@@ -2,7 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-     --button-color: #FFFFFF;
+    --button-color: #FFFFFF;
     --primary-br-color:#FFFFFF;
     --secondary-br-color:#F5F4FA;
     --footer-br-color:#2F303A;
@@ -172,7 +172,7 @@ img {
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
-    /* padding-top: 200px; */
+
     color: #ffffff;
     width: 696px;
     font-weight: 900;
